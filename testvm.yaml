@@ -2,6 +2,7 @@ apiVersion: ignite.weave.works/v1alpha4
 kind: VM
 metadata:
   name: my-vm
+  uid: 00000000000000001
 spec:
   image:
     oci: sayysf/my-vm:001
