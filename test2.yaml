@@ -1,0 +1,14 @@
+apiVersion: ignite.weave.works/v1alpha4
+kind: VM
+metadata:
+  name: my-vm2
+  uid: 599615df99804ae2
+spec:
+  image:
+    oci: sayysf/my-vm:001
+  cpus: 1
+  diskSize: 3GB
+  memory: 800MB
+  ssh: true
+status:
+  running: true
