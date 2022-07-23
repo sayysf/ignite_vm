@@ -5,7 +5,7 @@ metadata:
   uid: 599615df99804ae2
 spec:
   image:
-    oci: sayysf/my-vm:001
+    oci: sayysf/my-vm:v001
   cpus: 1
   diskSize: 3GB
   memory: 800MB
