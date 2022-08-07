@@ -4,11 +4,17 @@ metadata:
   name: my-vm2
   uid: 599615df99804ae2
 spec:
+  runtime: containerd
   image:
-    oci: sayysf/my-vm:v001
+    oci: sayysf/my-vm:v002
   cpus: 1
-  diskSize: 2GB
-  memory: 500MB
+  diskSize: 3GB
+  memory: 800MB
+  network:
+    ports:
+    - hostPort: 4040
+      vmPort: 22
   ssh: true
+
 status:
   running: true
